@@ -1,0 +1,77 @@
+/*vars*/
+.navbar {
+  background-color: transparent; }
+
+.Grey {
+  background-color: #f6f6f6; }
+
+.container {
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content: center; }
+
+.butn {
+  background-color: #8EADD5;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 130px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.butn:hover {
+  background-color: #5A87C2; }
+
+.butn:active {
+  background-color: #CFDCED; }
+
+.hi1 {
+  font-size: 64px;
+  font-weight: bold; }
+
+.hi2 {
+  font-size: 48px;
+  font-weight: bold; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  padding: 30px;
+  border: none;
+  background-color: #DEDCDB; }
+  .card__ava {
+    max-width: 120px;
+    max-height: 120px; }
+
+.nav-link {
+  font-size: 18px;
+  color: black; }
+
+.footer__container {
+  padding: 100PX; }
+.footer__list {
+  display: flex;
+  flex-direction: column; }
+  .footer__list * {
+    margin-bottom: 10px; }
+.footer__item:first-child {
+  font-weight: bold; }
+
+@media (max-width: 862px) {
+  .hi1 {
+    font-size: 48px;
+    font-weight: bold; }
+
+  .hi2 {
+    font-size: 24px;
+    font-weight: bold; } }
+
+/*# sourceMappingURL=index.css.map */

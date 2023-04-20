@@ -1,0 +1,134 @@
+$lightgrey:#f6f6f6;
+$grey:#DEDCDB;
+$greyer:#B4AFAD;
+
+$lightblue:#CFDCED;
+$blue:#8EADD5;
+$bluer:#5A87C2;
+
+$h1:64px;
+$h2:48px;
+$h3:20px;
+$h4:18px;
+$h5:16px;
+/*vars*/
+
+.navbar{
+    background-color: transparent;
+}
+.Grey{
+    background-color:$lightgrey ;
+}
+.container{
+    border-radius:16px ;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.butn{
+    background-color: $blue;
+    padding: 10px 20px 10px 20px;
+    color:white;
+    border-radius: 8px;
+    cursor: pointer;
+
+    max-width: 130px;
+
+    font-size: $h5;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butn:hover{
+    background-color: $bluer;
+}
+.butn:active{
+    background-color: $lightblue;
+}
+
+
+.hi1{
+    font-size: $h1;
+    font-weight: bold;
+    
+}
+.hi2{
+    font-size: $h2;
+    font-weight: bold;
+}
+
+.card{
+    
+    display: flex;
+    flex-direction:column ;
+    align-self: center;
+    justify-content: center;
+    padding: 30px;
+    border: none;
+    background-color: $grey;
+    // background-color:$grey ;
+    &__ava{
+        max-width: 120px;
+        max-height: 120px;
+        
+    }
+}
+
+// .hero{
+//     &__h1{
+//         font-size: $h1;
+//         font-style: normal;
+//         font-weight: 700;
+
+//     }
+//     &__text{
+//         justify-content: center;
+//         align-items: start;
+//         display: flex;
+//         flex-direction: column;
+//     }
+
+// }
+.nav-link{
+    font-size: $h4;
+    color:black;
+}
+.footer{
+   &__container{
+        padding: 100PX;
+        
+   }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        *{
+            margin-bottom: 10px;
+        }
+    }
+    &__item:first-child{
+        font-weight: bold;
+    }
+
+}
+@media (max-width:862px) {
+    
+    $h1:48px;
+    $h2:24px;
+    $h3:20px;
+    $h4:18px;
+    $h5:16px;
+    
+    .hi1{
+        font-size: $h1;
+        font-weight: bold;
+        
+    }
+    .hi2{
+        font-size: $h2;
+        font-weight: bold;
+    }
+}
