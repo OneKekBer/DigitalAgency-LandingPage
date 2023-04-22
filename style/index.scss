@@ -54,8 +54,27 @@ $h5:16px;
 .hi1{
     font-size: $h1;
     font-weight: bold;
-    
+    opacity: 0;
+    transform:translateY(20%);
+    transition: all ,2s ease;
 }
+
+.hi1.animate{
+    opacity: 1;
+    transform: none;
+}
+
+
+.animate-on-scroll {
+    // opacity: 0;
+    // transform: translateY(50px);
+    // transition: all 2s ease;
+  }
+  .animate {
+    opacity: 1;
+    transform: none;
+  }
+
 .hi2{
     font-size: $h2;
     font-weight: bold;
@@ -76,6 +95,22 @@ $h5:16px;
         max-height: 120px;
         
     }
+}
+
+
+.contact{
+    &__anim{
+        transition: all ,1s ease;
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    &__anim.animate{
+        opacity: 1;
+        transform: none;
+    }
+
+    
+
 }
 
 // .hero{
